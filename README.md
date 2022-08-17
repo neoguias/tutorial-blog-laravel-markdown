@@ -1,4 +1,4 @@
-# Tutorial de Redux
+# Tutorial de Laravel y Markdown
 
 En este tutorial aprenderás a crear un blog con Laravel que funcione con archivos estáticos Markdown. De este modo no necesitarás gestionar una base de datos y podrás almacenar tus artículos en GitHub. 
 
