@@ -10,7 +10,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.3",
-        "edulazaro/larablog": "^1.0",
+        "edulazaro/larablog": "^1.1",
         "edulazaro/laracards": "^1.2",
         "laravel/framework": "^13.17",
         "laravel/tinker": "^3.0"

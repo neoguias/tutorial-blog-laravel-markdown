@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f2949c447fd196ce61aad14f1c5de5a",
+    "content-hash": "c684d9ee51c82e56add16846cfa53c7f",
     "packages": [
         {
             "name": "brick/math",
@@ -446,16 +446,16 @@
         },
         {
             "name": "edulazaro/larablog",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/edulazaro/larablog.git",
-                "reference": "218bc2d455306da625e19e5762314d1c0c253799"
+                "reference": "47ee5eabfa989951b5f5a1eb3563061de226caac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/edulazaro/larablog/zipball/218bc2d455306da625e19e5762314d1c0c253799",
-                "reference": "218bc2d455306da625e19e5762314d1c0c253799",
+                "url": "https://api.github.com/repos/edulazaro/larablog/zipball/47ee5eabfa989951b5f5a1eb3563061de226caac",
+                "reference": "47ee5eabfa989951b5f5a1eb3563061de226caac",
                 "shasum": ""
             },
             "require": {
@@ -510,7 +510,7 @@
                 "issues": "https://github.com/edulazaro/larablog/issues",
                 "source": "https://github.com/edulazaro/larablog"
             },
-            "time": "2026-10-05T08:09:26+00:00"
+            "time": "2026-11-03T03:49:52+00:00"
         },
         {
             "name": "edulazaro/laracards",
