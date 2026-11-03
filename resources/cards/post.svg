@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#f7f5ee"/>
+<rect x="0" y="0" width="22" height="630" fill="{{accent}}"/>
+<circle cx="1100" cy="100" r="180" fill="{{accent}}" opacity=".10"/>
+<text x="72" y="100" fill="#5442a5" font-family="DejaVu Sans" font-size="25" font-weight="bold">{{brand_label}}</text>
+<text x="72" y="170" fill="#5d625e" font-family="DejaVu Sans" font-size="23">{{category_label}}</text>
+<text x="72" y="{{title_baseline}}" fill="#202820" font-family="DejaVu Sans" font-weight="bold" font-size="{{title_font_size}}">{{title_tspans}}</text>
+<line x1="72" y1="525" x2="1128" y2="525" stroke="#d7d9cf"/>
+<text x="72" y="578" fill="#5d625e" font-family="DejaVu Sans" font-size="22">{{author_name}}</text>
+<text x="1128" y="578" text-anchor="end" fill="#5d625e" font-family="DejaVu Sans" font-size="22">{{date_formatted}}</text>
+</svg>

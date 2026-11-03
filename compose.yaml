@@ -1,0 +1,21 @@
+name: laravel-static-blog
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    working_dir: /var/www/html
+    user: '${WWWUSER:-1000}:${WWWGROUP:-1000}'
+    volumes:
+      - .:/var/www/html
+    ports:
+      - '127.0.0.1:${APP_PORT:-8099}:8000'
+  node:
+    image: node:24-bookworm-slim
+    working_dir: /var/www/html
+    user: '${WWWUSER:-1000}:${WWWGROUP:-1000}'
+    volumes:
+      - .:/var/www/html
+    environment:
+      npm_config_cache: /tmp/npm-cache
+    profiles: [tools]

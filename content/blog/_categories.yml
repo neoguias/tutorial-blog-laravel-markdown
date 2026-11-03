@@ -1,0 +1,8 @@
+desarrollo:
+  name: Desarrollo
+  description: Proyectos, código y decisiones al crear una web.
+  color: "#6553c7"
+escritura:
+  name: Escritura
+  description: Ideas para escribir y organizar contenidos.
+  color: "#b76236"
